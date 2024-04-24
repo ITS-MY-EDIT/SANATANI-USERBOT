@@ -37,7 +37,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
 OWNER_ID = int(getenv("OWNER_ID", "5959548791"))
 OWNER_USERNAME = getenv("OWNER_USERNAME", None)
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5959548791").split()))
-ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/c646ef909ec110103d3b7.jpg)
+ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/c646ef909ec110103d3b7.jpg")
 
 
 # OPTIONAL VARIABLES
