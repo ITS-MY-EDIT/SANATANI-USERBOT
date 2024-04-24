@@ -1,0 +1,74 @@
+{
+    "name": "sᴀɴᴀᴛᴀɴɪ-ᴜsᴇʀʙᴏᴛ",
+    "description": "sᴀɴᴀᴛᴀɴɪ ᴜsᴇʀʙᴏᴛ ɪs ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ & ᴘᴏᴡᴇʀғᴜʟ ᴍᴜʟᴛɪ-ғᴇᴀᴛᴜʀᴇᴅ ᴛᴇʟᴇɢʀᴀᴍ ᴜsᴇʀʙᴏᴛ.",
+    "logo": "https://telegra.ph/file/7a2e0a67e160deb60e48b.jpg",
+    "keywords": [
+        "SANATANIUSERBOT",
+        "telegram-userbot",
+        "telegram-music-bot",
+        "telegram-video-bot"
+    ],
+    "repository": "https://github.com/itzshukla/STRANGER-OPUSERBOT2.0",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴀᴘɪ ɪᴅ ʜᴇʀᴇ.",
+            "value": "29308061",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴀᴘɪ ʜᴀsʜ ʜᴇʀᴇ.",
+            "value": "462de3dfc98fd938ef9c6ee31a72d099",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "ᴇɴᴛᴇʀ ʏᴏᴜʀ ʙᴏᴛ ᴛᴏᴋᴇɴ ʜᴇʀᴇ",
+            "value": "",
+            "required": true
+                    },
+        "SUDO_USERS": {
+            "description": "ғɪʟʟ ᴛʜᴇʀᴇ ʏᴏᴜʀ ɪᴅ ɢᴏ ᴛᴏ @ᴍɪssʀᴏsᴇ_ʙᴏᴛ ᴘᴍ ᴀɴᴅ ᴛʏᴘᴇ /ɪᴅ",
+            "required": true,
+            "value": "6566179661"
+        },
+          "OWNER_ID": {
+            "description": "ғɪʟʟ ᴛʜᴇʀᴇ ʏᴏᴜʀ ɪᴅ ɢᴏ ᴛᴏ @ᴍɪssʀᴏsᴇ_ʙᴏᴛ ᴘᴍ ᴀɴᴅ ᴛʏᴘᴇ /ɪᴅ",
+            "required": true,
+            "value": "6566179661"
+              },
+          "OWNER_USERNAME": {
+            "description": "ғɪʟʟ ᴛʜᴇʀᴇ ʏᴏᴜʀ ɪᴅ ɢᴏ ᴛᴏ @ᴍɪssʀᴏsᴇ_ʙᴏᴛ ᴘᴍ ᴀɴᴅ ᴛʏᴘᴇ /ɪᴅ",
+            "required": true,
+            "value": "V_VIP_OWNER"
+        },
+        "STRING_SESSION": {
+            "description": "ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴘʏʀᴏɢʀᴀᴍ ᴠ2 sᴛʀɪɴɢ sᴇssɪᴏɴ ʜᴇʀᴇ.",
+            "value": "",
+            "required": true
+        },
+        "MONGO_DB_URL": {
+            "description": "ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴍᴏɴɢᴏᴅʙ ᴜʀʟ ʜᴇʀᴇ.",
+            "value": "mongodb+srv://SHASHANK:STRANGER@shashank.uj7lold.mongodb.net/?retryWrites=true&w=majority",
+            "required": true
+        },
+        "LOG_GROUP_ID": {
+            "description": "ᴇɴᴛᴇʀ ʏᴏᴜʀ ᴘʀɪᴠᴀᴛᴇ ʟᴏɢ ɢʀᴏᴜᴘ ɪᴅ ʜᴇʀᴇ.",
+            "value": "-1002018556839",
+            "required": true
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "standard-2x"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ]
+}
