@@ -9,7 +9,7 @@ from pyrogram import filters, Client
 
 from ... import app, SUDO_USER
 from ... import *
-from SHUKLAU.modules.SHASHANK.basic import eor
+from SHUKLA.modules.SHASHANK.basic import eor
 
 
 __XOR = []
